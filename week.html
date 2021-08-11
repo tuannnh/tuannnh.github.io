@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    function getCurrentWeekRange() {
+      monday = moment().startOf('isoweek').format("MMMM DD");
+      sunday = moment().endOf('isoweek').format("MMMM DD YYYY");
+      document.getElementById("week").innerHTML = monday + " — " + sunday
+    }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+</head>
+
+<body onload="getCurrentWeekRange()">
+  <h1 id="week"></h1>
+</body>
+</html>
