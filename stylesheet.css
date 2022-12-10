@@ -1289,9 +1289,9 @@ o @keyframes bannar_come {
   display: none;
 }
 .message p {
-  font-family: fantasy, sans-serif;
+  font-family: Italianno;
   font-size: 30px;
-  text-transform: uppercase;
+/*   text-transform: uppercase; */
   color: #c4515c;
   text-shadow: 2px 2px 2px #fff;
   display: none;
