@@ -1,216 +1,201 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="ie lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>    <html class="ie lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>    <html class="ie lt-ie9"> <![endif]-->
-<!--[if gt IE 8]> <html> <![endif]-->
-<!--[if !IE]><!-->
 <html lang="en">
-<!-- <![endif]-->
+  <head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Don&#39;t be shy, please say hi!" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-	<title>Happy Birthday</title>
-	<meta charset="UTF-8" />
-	<meta name="description" content="Happy Birthday Cát Tường">
-	<meta name="robots" content="index, follow" />
-	<link rel="author" href="https://hungtuan.me" />
-	<meta name="keywords" content="Birthday, Happy">
-	<!-- Strat of Facebook Meta -->
-	<meta property="og:image" content="favicon.ico" />
-	<!-- End of Facebook Meta Tags -->
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="stylesheet" type="text/css" href="custom.css">
-	<link rel="stylesheet" type="text/css" href="loading.css">
-	<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Italianno">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant">
+  <meta
+    name="google-site-verification"
+    content="-AeO98ZKBiyBlJ-1-XKUIaKp1tCLlz6zydEQ-X7P1m8"
+  />
 
-	<!-- <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'> -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
+  <!--Facebook Card-->
+  <meta name="facebook:card" content="summary_large_image" />
+  <meta name="facebook:site" content="@" />
+  <meta name="facebook:creator" content="@" />
+  <meta name="facebook:url" content="https://hungtuan.me/" />
+  <meta name="facebook:title" content="Tuan Nguyen | data solution engineer" />
+  <meta
+    name="facebook:description"
+    content="Hi! I&#39;m Tuan Nguyen, a Discoverer based in Ho Chi Minh city, data solution engineer and problem solver. I&#39;m currently focused on improving strong skills for processing, streaming and building data..."
+  />
+  <meta name="facebook:image" content="https://hungtuan.me/assets/images/big-rainbow-static.jpg" />
+
+  <!--Schema-->
+  <link rel="author" href="https://hungtuan.me" />
+  <link rel="publisher" href="https://hungtuan.me" />
+  <meta itemprop="name" content="Tuan Nguyen | data solution engineer" />
+  <meta
+    itemprop="description"
+    content="Hi! I&#39;m Tuan Nguyen, a Discoverer based in Ho Chi Minh city, data solution engineer and problem solver. I&#39;m currently focused on improving strong skills for processing, streaming and building data..."
+  />
+  <meta itemprop="image" content="https://hungtuan.me/assets/images/big-rainbow-static.jpg" />
+
+  <!-- Facebook OpenGraph -->
+  <meta property="og:url" content="https://hungtuan.me/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Tuan Nguyen | data solution engineer" />
+  <meta property="og:image" content="https://hungtuan.me/assets/images/big-rainbow-static.jpg" />
+  <meta
+    property="og:description"
+    content="Hi! I&#39;m Tuan Nguyen, a Discoverer based in Ho Chi Minh city, data solution engineer and problem solver. I&#39;m currently focused on improving strong skills for processing, streaming and building data..."
+  />
+  <meta property="og:site_name" content="Tuan Nguyen | data solution engineer" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="article:author" content="https://hungtuan.me" />
+
+  <!-- from https://github.com/djpogo/avif-webp-css-support/ -->
+
+<script>
+  
+
+  !function(A){"use strict";function e(A,e,n){const o=function(A){return window.sessionStorage?JSON.parse(window.sessionStorage.getItem(A+"Support")):null}(A);if(null===o){const t=new Image;return t.onload=t.onerror=function(){n(A,2===t.height)},void(t.src=e)}t(A,o)}function t(e,t){t&&A.documentElement.classList.add(e),window.sessionStorage.setItem(e+"Support",t)}e("webp","data:image/webp;base64,UklGRi4AAABXRUJQVlA4TCEAAAAvAUAAEB8wAiMwAgSSNtse/cXjxyCCmrYNWPwmHRH9jwMA",t),e("avif","data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUEAAADybWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAeaWxvYwAAAABEAAABAAEAAAABAAABGgAAAF0AAAAoaWluZgAAAAAAAQAAABppbmZlAgAAAAABAABhdjAxQ29sb3IAAAAAamlwcnAAAABLaXBjbwAAABRpc3BlAAAAAAAAAAIAAAACAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgS0AAAAAABNjb2xybmNseAACAAIAAIAAAAAXaXBtYQAAAAAAAAABAAEEAQKDBAAAAGVtZGF0EgAKBzgAPtAgIAkyUBAAAPWc41TP///4gHBX9H8XVK7gGeDllq8TYARA+8Tfsv7L+zPE24eIoIzE0WhHbrqcrTK9VEgEG/hwgB5rdCbvP8g3KYPdV88CvPJnptgQ",t)}(document);
+</script>
+
+
+  <link
+    rel="preload"
+    href="/assets/fonts/VCROSDMono.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+  />
+
+  <link rel="stylesheet" href="/assets/main.entry.css" />
+
+  <link rel="icon" href="/assets/images/favicon.png" />
+
+  
+
+  <title>Tuan Nguyen   | data solution engineer  </title>
 </head>
 
-<body>
-	<div class="loading"></div>
-	<audio class="song" controls loop>
-		<source src="hbd.mp3">
-		</source>
-		Your browser isn't allowed for super chilling audio :(
-	</audio>
-	<div class="balloons text-center" id="b1">
-		<h2 style="color:#F2B300;">C</h2>
-	</div>
-	<div class="balloons text-center" id="b2">
-		<h2 style="color:#192bf7;">Á</h2>
-	</div>
-	<div class="balloons text-center" id="b3">
-		<h2 style="color:#e41e00;">T</h2>
-	</div>
-	<div class="balloons text-center" id="b4">
-		<h2 style="color:#8FAD00;"> </h2>
-	</div>
-	<div class="balloons text-center" id="b5">
-		<h2 style="color:#887af3;">T</h2>
-	</div>
-	<div class="balloons text-center" id="b6">
-		<h2 style="color:#70c41c;">Ư</h2>
-	</div>
-	<div class="balloons text-center" id="b7">
-		<h2 style="color:#0baa92;">Ờ</h2>
-	</div>
-	<div class="balloons text-center" id="b8">
-		<h2 style="color:#d35806;">N</h2>
-	</div>
-	<div class="balloons text-center" id="b9">
-		<h2 style="color:#f120e0;">G</h2>
-	</div>
+  <body class="cursor-default">
+    <div class="space">
+      <div class="stars"></div>
+      <div class="spaceship">
+        <div class="tv js-tv">
+          <div class="tv-screen js-screen">
+            <div class="tv-effects">
+              <div class="tv-effect --decontrast"></div>
+              <div class="tv-effect --static"></div>
+              <div class="tv-effect --artifacts"></div>
+              <div class="tv-effect --vignette"></div>
+              <div class="tv-effect --crt"></div>
+            </div>
+            <div class="tv-content js-content">
+              <a class="skip-link" href="#content">Skip to content</a>
+              <div class="page-container glitchy-text">
+                <header class="header">
+  <div class="header__container">
+    <nav class="nav" js-slot="nav">
+      
+      <ul class="nav__breadcrumb">
+        <li>Tuan Nguyen</li>
+      </ul>
+      
+      <ul class="nav__menu">
+        <li>
+          <a href="/open-source/">open-source</a>
+        </li>
+        <li>
+          <a href="/websites/">websites</a>
+        </li>
+      </ul>
+      
+    </nav>
+
+    <div class="header__info">
+      <div class="js-header-date">JUL 2, 1993</div>
+      <div class="js-header-controls"></div>
+      <noscript>
+        <div role="button">CHANNEL 00</div>
+      </noscript>
+    </div>
+  </div>
+</header>
 
 
-	<img src="Balloon-Border.png" width="100%" class="balloon-border">
+                <div class="page-content" id="content" js-slot="content">
+                  
+<article class="bio">
+  <p class="big-text">
+    Hi! I'm
+    <span class="bio__photo" tabindex="0">Tuan Nguyen</span>, a
+    <button class="button-text js-channel-trigger" data-channel="8">Discoverer</button>
+    based in
+    <button class="button-text js-channel-trigger" data-channel="8">Ho Chi Minh city</button>, data solution engineer and problem solver. <br/><br/>
+      I'm currently focused on improving strong skills for processing, streaming and building data pipelines
+    <a href="https://www.getcircuit.com/" target="_blank" rel="noopener noreferrer">Circuit Routing</a>. <br/><br/> I'm a very outgoing and curious person, who's passionate about
+    <a href="https://github.com/tuannnn" target="_blank" rel="noopener noreferrer">problem solving</a>,
+    <a href="https://instagram.com/bi.lucius" target="_blank" rel="noopener noreferrer">handcrafting, cooking, dogs</a>,
+                and
+    <a href="https://www.last.fm/user/chrispif" target="_blank" rel="noopener noreferrer">instrumentals, orchestras and
+      cinematic music</a>. Here are some
+    <a href="/playlists">playlists</a>
+    to get you going. <br/><br/> If you'd like to reach out, feel free to
+    <a href="https://calendly.com/hungtuan/15mins" target="_blank" rel="noopener noreferrer">schedule a quick call</a>
+    or send me an
+    <a href="mailto:mailn@hungtuan.me">e-mail</a>.
+  </p>
+</article>
+                </div>
 
+                <footer class="footer" id="footer">
+  <ul class="link-list">
+    <li>
+      <a href="/resume" rel="noopener noreferrer" target="_blank">RESUME</a>
+    </li>
+    <li>
+      <a
+        href="mailto:mail@hungtuan.me"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        EMAIL
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://facebook.com/bi.lucius"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        FACEBOOK
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://linkedin.com/in/tuannnh"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        LINKEDIN
+      </a>
+    </li>
+  </ul>
+  <div class="js-space-trigger"></div>
+</footer>
 
-	<div class="container">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<div class="row">
-			<div class="col-md-2 col-xs-2 bulb-holder">
-				<div class="bulb" id="bulb_yellow"></div>
-			</div>
-			<div class="col-md-2 col-xs-2 bulb-holder">
-				<div class="bulb" id="bulb_red"></div>
-			</div>
-			<div class="col-md-2 col-xs-2 bulb-holder">
-				<div class="bulb" id="bulb_blue"></div>
-			</div>
-			<div class="col-md-2 col-xs-2 bulb-holder">
-				<div class="bulb" id="bulb_green"></div>
-			</div>
-			<div class="col-md-2 col-xs-2 bulb-holder">
-				<div class="bulb" id="bulb_pink"></div>
-			</div>
-			<div class="col-md-2 col-xs-2 bulb-holder">
-				<div class="bulb" id="bulb_orange"></div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<img src="bd-banner.png" class="bannar">
-			</div>
-		</div>
-		<!-- <div class="row cake-cover"> -->
+    <div class="js-remote"></div>
 
-		<!-- <div class="cake">
-					<div class="velas">
-						<div class="fuego"></div>
-						<div class="fuego"></div>
-						<div class="fuego"></div>
-						<div class="fuego"></div>
-						<div class="fuego"></div>
-					</div>
-					<div class="cobertura"></div>
-					<div class="bizcocho"></div>
-				</div> -->
-		<div class="cake">
-			<div class="plate"></div>
-			<div class="layer layer-bottom"></div>
-			<div class="layer layer-middle"></div>
-			<div class="layer layer-top"></div>
-			<div class="icing"></div>
-			<div class="drip drip1"></div>
-			<div class="drip drip2"></div>
-			<div class="drip drip3"></div>
-			<div class="candle">
-				<div class="flame"></div>
-			</div>
-		</div>
+    <script>
+  
 
-		<!-- </div> -->
+  document.querySelector(".js-header-date").innerHTML=new Intl.DateTimeFormat("en-US",{month:"short",day:"numeric",year:"numeric"}).format(new Date);
+</script>
 
-		<div class="row message text-center">
-			<div class="col-md-12">
-				<p>Ngày hôm nay</p>
-				<p>cũng đẹp như bao ngày khác</p>
-				<p>nhưng rồi chúng ta chợt nhận ra</p>
-				<p>lại một năm nữa trôi qua</p>
-				<p>chỉ như vừa mới chớp mắt</p>
-				<p><strong>Nhưng mà</strong></p>
-				<p>Em biết hong</p>
-				<p>ngày hôm nay lại đặc biệt</p>
-				<p>đặc biệt là đối với em</p>
-				<p>cho nên</p>
-				<p>Mình cùng nhau...</p>
-				<p>tổ chức 1 chiếc sinh nhật tuyệt vời cho em nào</p>
-				<p>và anh cũng muốn nhắn nhủ rằng...</p>
-				<p>anh muốn mang lại một chút vui vẻ cho em</p>
-				<p>vào ngày đặc biệt của em</p>
-				<p>nên anh làm chiếc website với tất cả tấm lòng của anh này</p>
-				<p>cám ơn em vì em đã ở đây</p>
-				<p>cám ơn em vì những gì mình cùng trải qua</p>
-				<p>cám ơn em vì tất cả</p>
-				<p>Chúc em luôn luôn hạnh phúc và xinh đẹp</p>
-				<p>Hi vọng cuộc sống sẽ luôn dễ dàng với Cát Tường của chúng taaa</p>
-				<p>Hi vọng mọi ước nguyện của em sẽ thành hiện thực</p>
-				<p>Hãy nhớ rằng</p>
-				<p>em luôn luôn thông minh</p>
-				<p>và giỏi giang</p>
-				<p>trong mắt của anh</p>
-				<p>Sinh nhật em đánh dấu một tuổi mới</p>
-				<p>một hành trình mới vẫn còn chờ em phía trước</p>
-				<p>sẽ có khó khăn</p>
-				<p>hay mệt mỏi..</p>
-				<p>nhưng mà...</p>
-				<p>Cát Tường đừng lo lắng nhé</p>
-				<p>bởi vì...</p>
-				<p>Em luôn có bạn bè và người thân bên cạnh</p>
-				<p>và</p>
-				<p>anh cũng hi vọng sẽ luôn được bên cạnh em</p>
-				<p>dù là vui hay buồn</p>
-				<p>mạnh khoẻ hay đau ốm</p>
-				<p>cho nên Cát Tường hãy luôn vui vẻ nhé</p>
-				<p>Anh lại văn vở nữa rồi :(</p>
-				<p>Một lần nữa</p>
-				<p>Chúc Cát Tường sinh nhật thiệt vuiiiii</p>
-				<p>Kí tên</p>
-				<p>Anh Tuấn văn học =)))))</p>
-				<p>Time to get back our bánh kemmmmm</p>
-			</div>
-		</div>
-		<div class="navbar navbar-fixed-bottom">
-			<div class="row">
-				<div class="col-md-6 text-center col-md-offset-3">
-					<button class="button-custom" id="turn_on">Tối quá, mở đèn nào</button>
-					<button class="button-custom" id="play">Thêm chút nhạc nền cho chill nà</button>
-					<button class="button-custom" id="bannar_coming">Mình trang trí thêm bằng 1 sự đáng iu không hề nhẹ
-						nha</button>
-					<button class="button-custom" id="balloons_flying">Bóng bay bóng bayyyy</button>
-					<button class="button-custom" id="cake_fadein">Order 1 chiếc bánh sinh nhật nhenn</button>
-					<button class="button-custom" id="light_candle">Em đốt nến đi</button>
-					<button class="button-custom" id="wish_message">Chúc mừng sinh nhật bé Cát Tường đáng iuuu siêu cấp
-						vũ trụ</button>
-					<button class="button-custom" id="story">Nhấn xem lời nhắn của anh nà</button>
-					<!-- <button class="button-custom" id="cake_cut">Lrt's Cut the Cake</button> -->
-				</div>
-			</div>
-			<!-- <div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div> -->
-		</div>
+<script async type="module" src="/assets/main.entry.js"></script>
 
+    
 
-	</div>
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script src="effect.js"></script>
-
+  </body>
 </html>

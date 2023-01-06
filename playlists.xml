@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tuan's playlists</title>
+  <link href="https://hungtuan.me/playlists.xml" rel="self"/>
+  <link href="https://hungtuan.me"/>
+  <id>https://hungtuan.me</id>
+  <author>
+    <name>Tuan Nguyen</name>
+    <email>mail@hungtuan.me</email>
+  </author>
+  <entry>
+    <title>フロー flow</title>
+    <link href="https://open.spotify.com/playlist/1oKT4BwzBziaqIs80UPbJq"/>
+    <id>https://open.spotify.com/playlist/1oKT4BwzBziaqIs80UPbJq</id>
+  </entry>
+  <entry>
+    <title>ローファイ  l o - f i </title>
+    <link href="https://open.spotify.com/playlist/6ou1L5R6RrPk9XhWnls1Lt"/>
+    <id>https://open.spotify.com/playlist/6ou1L5R6RrPk9XhWnls1Lt</id>
+  </entry>
+  <entry>
+    <title>寛ぐ gaming nostalgia</title>
+    <link href="https://open.spotify.com/playlist/6aDjVGh6yqfGSevd8NBjMS"/>
+    <id>https://open.spotify.com/playlist/6aDjVGh6yqfGSevd8NBjMS</id>
+  </entry>
+  <entry>
+    <title>Chilling piano</title>
+    <link href="https://open.spotify.com/playlist/055YQX5ATHP0NykMI4JaJ0"/>
+    <id>https://open.spotify.com/playlist/055YQX5ATHP0NykMI4JaJ0</id>
+  </entry>
+  <entry>
+    <title>Cinematic</title>
+    <link href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO1o5s1q"/>
+    <id>https://open.spotify.com/playlist/37i9dQZF1DZ06evO1o5s1q</id>
+  </entry>
+</feed>
