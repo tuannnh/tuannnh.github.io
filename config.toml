@@ -1,6 +1,6 @@
 baseURL = "https://hungtuan.me"
 title = "Tuaniverse"
-theme = ["hugo-shortcode-roneo-button-icon-badge", "hugo-coder"]
+theme = ["hugo-coder"]
 languageCode = "en"
 defaultContentLanguage = "en"
 paginate = 20
