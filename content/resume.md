@@ -11,7 +11,7 @@ Address: TanPhu, Ho Chi Minh
 Mobile/Chat: (+84)904035003  
 Email: mail@hungtuan.me
 
-[Download Resume in PDF](https://localhost:1313/Tuan_Nguyen_Resume.pdf)
+[Download Resume in PDF](https://hungtuan.me/Tuan_Nguyen_Resume.pdf)
 
 ### Introduction
 
