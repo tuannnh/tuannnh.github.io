@@ -9,7 +9,7 @@ slug = "resume"
 Discoverer \| Handicrafter \| Data Engineer  
 Address: TanPhu, Ho Chi Minh  
 Mobile/Chat: (+84)904035003  
-
+<button onclick="window.print()">Print this page as PDF</button>
 <!-- ![Badge](https://img.shields.io/badge/GitHub-Pro%20%20%20-blue)&nbsp;![Badge](https://img.shields.io/badge/GitHub-Arctic%20Code%20Vault%20Contributor-orange) -->
 
 <!-- <div id=webaddress>
