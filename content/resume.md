@@ -9,11 +9,17 @@ slug = "resume"
 Discoverer \| Handicrafter \| Data Engineer  
 Address: TanPhu, Ho Chi Minh  
 Mobile/Chat: (+84)904035003  
-Email: mail@hungtuan.me
 
-[Download Resume in PDF](https://hungtuan.me/Tuan_Nguyen_Resume.pdf)
 
-### Introduction
+<div id="webaddress">
+  <a href="https://hungtuan.me" target="blank"><i class="fas fa-home"></i> https://hungtuan.me</a> - 
+  <a href="mailto:mail@hungtuan.me" target="blank"><i class="fas fa-envelope"></i> mail@hungtuan.me</a> <br>
+  <a href="https://github.com/tuannnh" target="blank"><i class="fab fa-github"></i> Tuan Nguyen</a> - 
+  <a href="https://www.linkedin.com/in/tuannnh/" target="blank"><i class="fab fa-linkedin"></i> Tuan Nguyen</a> - 
+   <a href="https://facebook.com/bi.lucius" target="blank"><i class="fab fa-facebook"></i> Tuan Nguyen</a>
+</div>
+
+## Introduction
 
 <!-- Hello. I am Tuan, and I want to enjoy my own world   -->
 I have an extraordinary passion for discovering new things  
@@ -21,17 +27,17 @@ I Love programming, cooking, and doing handicrafts
 <!-- Responsibility and reliability come first  
 Easy-going and people supporting enthusiast -->
 
-### Currently
+## Currently
 
-I am a Data Engineer with more than three years of industry experience. My primary responsibilities are helping build ETL pipelines, including modeling, collecting, processing, and provisioning data  
+As a Data Engineer with more than 5 years in IT industry experience. My primary responsibilities are helping build ETL pipelines, including modeling, collecting, processing, and provisioning data  
 Apart from my daily activities, I also help other operational teams with making automation tools to enhance the business working performance  
-I am seeking to face any data challenges or problems. Feel free to reach out to me. I am glad to hear a ring from you
+Seeking to face any challenges or problems. Feel free to reach out to me. I am glad to hear a ring from you
 
-### Skills
+## Skills
 
 _Data Engineering_
 
-- Extract data from various multiple data sources like: Remote Object Storage (Amazon S3), SFTP, relational databases, non-relational databases, Facebook Analytics, Google Analytics, social media contents, APIs
+- Extract data from various multiple data sources like: Remote Object Storage (Amazon S3), SFTP, relational databases, non-relational databases, Facebook Analytics, Google Analytics, social media contents, APIs, etc...
 - Process many types of data: transactional data, high volume data, user events, logs
 - Perform data transformation, masterizing data, data cleaning, data validation
 - Build data pipeline for Batch and Stream processing
@@ -60,14 +66,14 @@ _Project Management_
 **Technical**
 
 - Programming languages: Javascript, Ruby, Python
-- Database: Vertica, PostgreSQL, BigQuery
+- Database: TiDB, Vertica, PostgreSQL, BigQuery
 - Containerization: Docker
 - Bash: Shell script, CLI commands
 - Version control: Github
-- ETL Tools: Apache Airflow, Talend, GoodData
+- ETL Tools: Apache Airflow, Talend, GoodData, Apache Nifi
 - Streaming data: HDFS, Hadoop, Apache Spark, Apache Kafka
-- Cloud services: AWS (S3, EC2, IAM, VPC, Lambda)
-- BI Tools: PowerBI, Looker Studio, Streamlit
+- Cloud services: AWS (S3, EC2, IAM, VPC, Lambda), Azure (Active Directory, Function App, ServiceBus)
+- BI Tools: GoodData, PowerBI, Looker Studio
 
 **Others**
 
@@ -76,10 +82,10 @@ _Project Management_
 - Self-learning, researching technical problems and solutions
 - Work well in a multicultural office environment 
 
-### Experience
+## Experience
 
-`2020 - 2023`
-_KMS Solutions | Data Engineer_ 
+`2020 - Present`
+_KMS Solutions | Sr. Data Engineer_ 
 
 **Project: GoodData's client**  
 Design and build data solutions for GoodData's clients in various industries such as: Education, financial services, customer satisfication, retail, multimedia
@@ -104,6 +110,22 @@ Build data solution POC for a Financial client base on financial data. Target to
 - Utilize SQL for data transformation and leverage In-database Machine Learning Functions to train models and make Risk predictions
 - Establish a connection to the database system and create dynamic reports and interactive dashboards for analyzing debt collection performance and gaining insights into customer background criteria
 
+**Project: Banking Business/Services Client**  
+Build automated flows to digest data from multiple applications data/vendors sources to data warehouse, capture data changes, then return model for reporting and analytical purposes
+- Build ETL pipeline to digest data from banking services and application using Apache Nifi
+- Optimize flows for handling large size data files
+- Set up integration with SMS/Email providers to handle notification requests on data changes
+
+**Project: Insurance Service Client**  
+Build an event-driven Python based Parametric Engine that can use weather and satellite data to evaluate insurance claim check.
+- Use Azure Functions and Microservices for application deployment
+- Design and maintain application structure with best practice API design (OpenAPI)
+- Enable application to align with 12 factors methodlogy in microservices
+- Prepare unit tests, performance test
+- Utilize Azure Service Bus for message-queue communication between functional steps
+- Data store and retrieve using Azure Blob Storage 
+- Integrate with current microservices system, CI/CD flows (Sonar cloud, dependabots,...)
+
 `2019 - 2020`
 _Freelance | Full Stack Developer_  
 - Design, implement and maintain the Football Booking System based on the customer's requirements  
@@ -120,7 +142,7 @@ _Freelance | Full Stack Developer_
 _English Tutor_
 - Take responsibility for teaching English in a class of 5 - 10 high school students
 
-### Education
+## Education
 
 `2012 - 2015`
 **University of Finance and Marketing**
@@ -132,17 +154,20 @@ _English Tutor_
 
 - B.Eng., Software Engineering
 
-### Certifications
+## Certifications
 
-_[AWS Fundamentals Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/V76QLZVD2ZNX)_
+_[IBM Data Engineering Professional Certificates](https://coursera.org/share/af3f2be7ed42d1f98428c5d2f508c714)_
+
+_[AWS Fundamentals SpecializationAWS Fundamentals Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/V76QLZVD2ZNX)_
 
 _[Modern Application Development with Java on AWS](https://www.coursera.org/account/accomplishments/specialization/certificate/X2KLVXPK9GTV)_
 
 _[Mixpanel Partner Certification](https://verify.skilljar.com/c/p5t24qwt74pq)_
 
-_[Project Management Principles and Practices](https://www.coursera.org/account/accomplishments/specialization/certificate/Y63G6CJ3BT55)_
+_[Project Management Principles and PracticesProject Management Principles and Practices](https://www.coursera.org/account/accomplishments/specialization/certificate/Y63G6CJ3BT55)_
 
-### Awards
+
+## Awards
 
 `2016`
 _Top 2 | Final Round | Softskills Traning Program_, Level Up - Sponsored by Samsung
@@ -153,7 +178,7 @@ _Professional Growth Award_, recognized by Data and Analytics Department, KMS  S
 `2022`
 _Certificate Of Appreciation_, Techcon Organizer, KMS Group
 
-### Publications
+## Publications
 
 ### Blog articles
 
@@ -171,4 +196,5 @@ _Certificate Of Appreciation_, Techcon Organizer, KMS Group
 - An English-based webinar to share how to discover why Product Analytics is essential to your business and how to take advantage of it to improve the customer journey
 - Organized on Dec 6th, 2022
 
+<h3 align="right">Last updated: Sep 2024</h3>
 
