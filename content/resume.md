@@ -10,6 +10,15 @@ Discoverer \| Handicrafter \| Data Engineer
 Address: TanPhu, Ho Chi Minh  
 Mobile/Chat: (+84)904035003  
 
+<!-- ![Badge](https://img.shields.io/badge/GitHub-Pro%20%20%20-blue)&nbsp;![Badge](https://img.shields.io/badge/GitHub-Arctic%20Code%20Vault%20Contributor-orange) -->
+
+<!-- <div id=webaddress>
+    <a href="mailto:mail@hungtuan.me" target="blank">
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg" alt="mail@hungtuan.me" height="40" width="40"/></a>
+    <a href="https://github.com/tuannnh" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="discovertuannguyen" height="40" width="40"></a>
+    <a href="https://linkedin.com/in/tuannnh" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="discovertuannguyen" height="40" width="40"/></a>
+    <a href="https://fb.com/supercodingninja" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="bi.lucius" height="40" width="40"></a>
+</div> -->
 
 <div id="webaddress">
   <a href="https://hungtuan.me" target="blank"><i class="fas fa-home"></i> https://hungtuan.me</a> - 
@@ -22,16 +31,15 @@ Mobile/Chat: (+84)904035003
 ## Introduction
 
 <!-- Hello. I am Tuan, and I want to enjoy my own world   -->
-I have an extraordinary passion for discovering new things  
-I Love programming, cooking, and doing handicrafts  
+He has an extraordinary passion for discovering new things  
+He addicted to programming, cooking, and doing handicrafts  
 <!-- Responsibility and reliability come first  
 Easy-going and people supporting enthusiast -->
 
 ## Currently
 
-As a Data Engineer with more than 5 years in IT industry experience. My primary responsibilities are helping build ETL pipelines, including modeling, collecting, processing, and provisioning data  
-Apart from my daily activities, I also help other operational teams with making automation tools to enhance the business working performance  
-Seeking to face any challenges or problems. Feel free to reach out to me. I am glad to hear a ring from you
+As a Data Engineer with more than 5 years in IT industry experience. His primary responsibilities are helping build ETL pipelines, including modeling, collecting, processing, and provisioning data  
+Apart from his daily activities, He also help other operational teams with making automation tools to enhance the business working performance
 
 ## Skills
 
@@ -198,3 +206,4 @@ _Certificate Of Appreciation_, Techcon Organizer, KMS Group
 
 <h3 align="right">Last updated: Sep 2024</h3>
 
+<!-- <span align="center"><b><a href="https://hungtuan.me">#DiscoverTuanNguyen</a></b></span>  -->
